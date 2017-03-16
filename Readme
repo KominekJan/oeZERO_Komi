@@ -2,18 +2,30 @@ oeCameraControls
   - base script, requires a target
   - requires oeCameraText 
   - creates a following camera behind a target, allows for control of the camera
+  - settings: 
+     	‣ Rot Speed - modifies overall speed of rotary movements of the camera
+      ‣ Mov speed - modifies speed of zooming in/out and rotation around object in 3P
+      ‣ Target - object to create the camera for
+      ‣ Shift Precision - sets the threshold for view centering nad camera switch motions 
 
 oeCameraText
   - secondary script, used as component, is used directly by oeCameraControls
   - creates a textfield in front of the camera which serves as a UI text
+  - settings: -none-
   
 oeTextScreen
   - base script, used as component
   - requires oeTextWrap
   - creates a textfield and input window for dynamic text creation as per user input
+  - settings: 
+     	‣ New font - sets new font
+     	‣ Text Format - list of available text alignments on the object      
+     	‣ Alignment - if checked, will align text to the left/center/right according to its positioning
   
 oeTextWrap
   - secondary script, used as component, is used directly by oeTextScreen
   - is being called on submitting user input to wrap text into specific width
+  - settings:
+     	‣ Max Width - threshold for the textwrap
   
   
