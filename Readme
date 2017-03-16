@@ -1,0 +1,19 @@
+oeCameraControls
+  - base script, requires a target
+  - requires oeCameraText 
+  - creates a following camera behind a target, allows for control of the camera
+
+oeCameraText
+  - secondary script, used as component, is used directly by oeCameraControls
+  - creates a textfield in front of the camera which serves as a UI text
+  
+oeTextScreen
+  - base script, used as component
+  - requires oeTextWrap
+  - creates a textfield and input window for dynamic text creation as per user input
+  
+oeTextWrap
+  - secondary script, used as component, is used directly by oeTextScreen
+  - is being called on submitting user input to wrap text into specific width
+  
+  
