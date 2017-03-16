@@ -1,1 +1,0 @@
-# oeZERO_Komi
